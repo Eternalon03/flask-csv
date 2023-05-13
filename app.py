@@ -154,6 +154,8 @@ def postME():
         split(data,df)
     if(data['function'] == "Merge Columns by Characters"):
         merge(data,df)
+        
+    print(data)
 
     print(df)
         
